@@ -1,0 +1,46 @@
+main {
+  background-color: #f8f7fe;
+  padding: 3rem 9.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.indigo {
+  color: var(--indigo-500);
+}
+
+.grey {
+  color: var(--surface-500);
+}
+
+@media (max-width: 1250px) {
+  main {
+    padding: 3rem 6rem;
+  }
+}
+
+@media (max-width: 900px) {
+  main {
+    padding: 3rem 4.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  main {
+    padding: 2.5rem 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  main {
+    padding: 2.25rem 2.25rem;
+  }
+}

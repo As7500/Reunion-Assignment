@@ -1,0 +1,20 @@
+.menu-button {
+    padding-top: 0.55rem;
+    padding-bottom: 0.55rem;
+}
+
+.menu-button-selected {
+    background-color: var(--indigo-100) !important;
+}
+
+@media (max-width: 1050px) {
+    .menu-button {
+        padding: 0.55rem 0.55rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .auth-buttons {
+        padding: 0.65rem 0.65rem;
+    }
+}
